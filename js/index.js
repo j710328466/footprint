@@ -34,142 +34,60 @@ function addMapControl(){
 //标注点数组
 var markerArr = [{
         title:"杭州",
-        content:"杭州市、杭州西湖景区",
-        point:"120.171467|30.257352",
-        isOpen:0,
+        content:"我在这里",
+        point:"120.021683|30.260537",
+        isOpen:1,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
     },{
-        title:"乌镇",
-        content:"乌镇西栅、东栅",
-        point:"120.490268|30.757066",
+        title:"鳌江",
+        content:"天仓山",
+        point:"120.551789|27.631581",
         isOpen:0,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
-        title:"苏州",
-        content:"苏州博物馆、山塘街、忠王府、拙政园等",
-        point:"120.635894|31.330387",
+        title:"义乌",
+        content:"食品批发市场、商品批发市场",
+        point:"120.080719|29.29767",
         isOpen:0,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
-        title:"昆山",
-        content:"阳澄湖",
-        point:"120.835913|31.409886",
-        isOpen:0,
-        icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
-     },{
-        title:"衡阳",
-        content:"整个衡阳",
-        point:"112.576672|26.899646",
-        isOpen:0,
-        icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
-     },{
-        title:"长沙",
-        content:"长沙市、湖南农业大学、湖南环境生物机电学院、湖南大众传媒学院、湖南艺术职业技术学院",
-        point:"112.948208|28.233716",
-        isOpen:0,
-        icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
-     },{
-        title:"邵阳",
-        content:"邵东县",
-        point:"111.961661|26.987796",
-        isOpen:0,
-        icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
-     },{
-        title:"广州",
-        content:"广州市、天河、西关、电视塔、白云山、上下九等",
-        point:"113.370828|23.130788",
-        isOpen:0,
-        icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
-     },{
-        title:"东莞",
-        content:"大岭山、松山湖",
-        point:"113.845618|22.905876",
+        title:"台州",
+        content:"地方我忘了名字..",
+        point:"121.25726|28.885843",
         isOpen:0,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
         title:"厦门",
-        content:"厦门大学、鼓浪屿、普陀山/寺、环岛路、胡里山炮台等",
+        content:"鼓浪屿、曾厝垵、珍珠湾、胡里山炮台等",
         point:"118.142483|24.497133",
         isOpen:0,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
-        title:"成都",
-        content:"成都市、大熊猫繁育基地",
-        point:"104.071216|30.663546",
-        isOpen:0,
-        icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
-     },{
-        title:"婺源",
-        content:"南昌、婺源",
-        point:"117.86664|29.282911",
-        isOpen:0,
-        icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
-     },{
-        title:"天津",
-        content:"天津市",
-        point:"117.223736|39.140848",
-        isOpen:0,
-        icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
-     },{
         title:"北京",
-        content:"天安门/广场、八达岭长城、故宫、天坛、西单、颐和园、圆明园遗址公园",
+        content:"天安门广场、北京博物馆",
         point:"116.405505|39.913005",
         isOpen:0,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
-        title:"西安",
-        content:"西安市区、华山",
-        point:"108.981951|34.283749",
+        title:"南昌",
+        content:"狮子峰、秋水广场",
+        point:"115.869172|28.688462",
         isOpen:0,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
-        title:"腾格里沙漠",
-        content:"内蒙古阿拉善",
-        point:"105.864047|38.865403",
+        title:"宜春",
+        content:"宜春学院、共青城",
+        point:"114.363798|27.797996",
         isOpen:0,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
-        title:"无锡",
-        content:"无锡军障古道徒步",
-        point:"120.321109|31.44869",
+        title:"九江",
+        content:"庐山、共青城",
+        point:"116.001261|29.561078",
         isOpen:0,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
-        title:"上海",
-        content:"目前我正在上海市，快来找我耍吧",
-        point:"121.473338|31.233094",
-        isOpen:1,
-        icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
-     },{
-         title:"大理",
-         content:"大理古城、苍山洱海",
-         point:"100.252927|25.606508",
-         isOpen:0,
-         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
-     },{
-         title:"丽江",
-         content:"丽江古城、拉市海",
-         point:"100.222099|26.876146",
-         isOpen:0,
-         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
-     },{
-         title:"昆明",
-         content:"昆明",
-         point:"102.707855|25.058846",
-         isOpen:0,
-         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
-     },{
-         title:"北海",
-         content:"北海银滩、三千海",
-         point:"109.135379|21.458892",
-         isOpen:0,
-         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
-     },{
-         title:"桂林",
-         content:"桂林、阳朔",
-         point:"110.290984|25.268423",
-         isOpen:0,
-         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
+
      }
 ];
 
@@ -232,33 +150,3 @@ function createIcon(json){
 }
 
 initMap();
-
-$(function(){
-     $("#weixinLink,#myemail,#dashang").popover({
-        delay: { "show": 500, "hide": 100 },
-        placement:'top',
-        html:true
-    }).on("mouseenter",function(){
-        var _this = this;
-        $(this).popover("show")
-               .siblings(".popover")
-               .on("mouseleave", function () {
-                   $(_this).popover('hide');
-               });
-    }).on("mouseleave", function(){
-        var _this = this;
-        setTimeout(function () {
-            if (!$(".popover:hover").length) {
-                $(_this).popover("hide");
-            }
-        }, 100);
-    });
-
-    setInterval(function(){
-        $("#bookStore").css({"color":"#FFFF66"});
-        setTimeout(function(){
-            $("#bookStore").css({"color":"red"});
-        },500);
-    },1000);
-    
-});
