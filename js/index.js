@@ -87,7 +87,12 @@ var markerArr = [{
         isOpen:0,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
-
+        title:"武汉",
+        content:"华科大",
+        point:"114.419826|30.518754",
+        isOpen:0,
+        icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
+        
      }
 ];
 
