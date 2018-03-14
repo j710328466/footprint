@@ -52,7 +52,7 @@ var markerArr = [{
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
         title:"台州",
-        content:"地方我忘了名字..",
+        content:"玉环县",
         point:"121.25726|28.885843",
         isOpen:0,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
