@@ -39,6 +39,12 @@ var markerArr = [{
         isOpen:1,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
     },{
+        title:"余杭",
+        content:"超山、潭溪小镇",
+        point:"120.230991|30.44395",
+        isOpen:0,
+        icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
+    },{
         title:"鳌江",
         content:"天仓山",
         point:"120.551789|27.631581",
