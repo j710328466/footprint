@@ -34,7 +34,7 @@ function addMapControl(){
 //标注点数组
 var markerArr = [{
         title:"杭州",
-        content:"我在这里",
+        content:"我在这里啊",
         point:"120.021683|30.260537",
         isOpen:1,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
@@ -52,7 +52,7 @@ var markerArr = [{
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
         title:"义乌",
-        content:"食品批发市场、商品批发市场",
+        content:"食品批发市场、小商品批发市场",
         point:"120.080719|29.29767",
         isOpen:0,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
@@ -98,7 +98,18 @@ var markerArr = [{
         point:"114.419826|30.518754",
         isOpen:0,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
-        
+     },{
+        title:"宜春",
+        content:"尖尾峡森林公园",
+        point:"114.265523|28.4806",
+        isOpen:0,
+        icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
+     },{
+        title:"上海",
+        content:"东方明珠、外滩",
+        point:"121.506377|31.245105",
+        isOpen:0,
+        icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      }
 ];
 
