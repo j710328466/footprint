@@ -110,6 +110,12 @@ var markerArr = [{
         point:"121.506377|31.245105",
         isOpen:0,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
+     },{
+        title:"香港",
+        content:"尖沙咀、铜锣湾、将军澳",
+        point:"114.259663|22.30051",
+        isOpen:0,
+        icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      }
 ];
 
